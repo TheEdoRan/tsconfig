@@ -1,6 +1,6 @@
 {
   "name": "@theedoran/tsconfig",
-  "version": "0.10.0",
+  "version": "1.0.0",
   "description": "TypeScript configuration generator",
   "main": "index.js",
   "bin": "index.js",
