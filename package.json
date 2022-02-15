@@ -25,6 +25,7 @@
     "node": ">=16.7.0"
   },
   "dependencies": {
-    "inquirer": "^8.2.0"
+    "inquirer": "^8.2.0",
+    "which": "^2.0.2"
   }
 }
