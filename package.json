@@ -1,0 +1,30 @@
+{
+  "name": "@theedoran/tsconfig",
+  "version": "0.9.9",
+  "description": "TypeScript configuration generator",
+  "main": "index.js",
+  "bin": "index.js",
+  "keywords": [
+    "typescript",
+    "tsconfig"
+  ],
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "Edoardo Ranghieri (https://edoardo.ranghieri.com)",
+  "license": "MIT",
+  "homepage": "https://github.com/theedoran/tsconfig",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theedoran/tsconfig.git"
+  },
+  "bugs": {
+    "url": "https://github.com/theedoran/tsconfig/issues"
+  },
+  "engines": {
+    "node": ">=16.7.0"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
