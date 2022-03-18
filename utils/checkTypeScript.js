@@ -1,6 +1,5 @@
 const inquirer = require("inquirer");
 const { execSync } = require("child_process");
-const { getPackageManager } = require("./packageManager");
 
 const checkTypeScript = async (skipQuestion, isNext) => {
 	try {
@@ -23,11 +22,9 @@ const checkTypeScript = async (skipQuestion, isNext) => {
 			}
 		}
 
-		const pm = getPackageManager();
-
 		try {
 			execSync(
-				`${pm} i -D typescript @types/node ${isNext ? "@types/react" : ""}`,
+				`npm i -D typescript @types/node ${isNext ? "@types/react" : ""}`,
 				{ stdio: "inherit" }
 			);
 		} catch (e) {
