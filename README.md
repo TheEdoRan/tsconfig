@@ -1,3 +1,5 @@
+# Unmaintained: TS config is now included in [bootstrap](https://github.com/theedoran/bootstrap)!
+
 # [@theedoran/tsconfig](https://github.com/theedoran/tsconfig)
 
 > This package generates a sensible `TypeScript` configuration.
